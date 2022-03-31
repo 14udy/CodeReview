@@ -1,0 +1,52 @@
+.enterprises h2 {
+    padding-bottom: 0.4rem;
+    
+  }
+  
+  .enterprises .infoBox{
+    min-height: 400px;
+    max-height:800px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fff;
+  }
+
+  .enterprises .infoBox h4{
+    color: rgb(14, 14, 14);
+  }
+
+  .enterprises .optionList {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+
+
+  .enterprises .optionList .optionListItem{
+    font-size: 18px;
+    padding: 0.6rem 0 0.6rem 0.3rem;
+    background: rgb(51, 83, 34);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .enterprises label{
+    text-align: right;
+   
+    padding: 10px;
+  }
+  
+  .enterprises .form-control, .enterprises .form-select {
+   border-radius: 0;
+  }
+  
+  .fLabel{
+    background-color: #ccc;
+  }
+
+  .enterprises .optionList .selectedEnt, .enterprises .optionList .selectedCat{
+    background-color: rgb(126, 155, 109);
+    color: #fff;
+  }
+

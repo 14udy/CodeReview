@@ -1,0 +1,29 @@
+.details h2 {
+  padding-bottom: 0.4rem;
+}
+
+.details .infoBox{
+  min-height: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.details .infoBox {
+
+  padding: 10px 0 10px 5px;
+}
+
+.details label{
+  text-align: right;
+ 
+}
+
+.details .form-control, .details .form-select {
+ border-radius: 0;
+}
+
+.fLabel{
+  background-color: #ccc;
+}
+

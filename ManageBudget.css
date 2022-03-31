@@ -1,0 +1,13 @@
+.sidebar{
+  width: 270px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(69, 105, 83);
+  color: rgb(255, 255, 255);
+}
+
+.manageBudgetMain{
+  margin-left: 300px;
+  background: transparent;
+}

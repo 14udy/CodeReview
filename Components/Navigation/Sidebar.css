@@ -1,0 +1,98 @@
+.sidebar {
+  min-height: 93vh !important;
+  border-radius: 10px;
+  /* color: #fff; */
+  margin: 2rem 0 0 1rem ;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sidebarInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  text-align: center;
+}
+
+.sidebar .navLink{
+  text-decoration: none;
+  padding: 0.8rem 0 0.8rem 0.8rem;
+  color: rgb(0, 0, 0);
+}
+
+.sidebar .navLink:hover{
+  /* color: #fff; */
+  background: rgba(191, 191, 191, 0.474);
+}
+
+.sidebar .accordion-item{
+  border: none;
+}
+
+.sidebar .accordion-button{
+  padding: 0.7rem 0.2rem;
+  border-radius: none;
+  border: none;
+}
+
+.sidebar .accordion-item:last-of-type {
+  border-radius: 0;
+}
+
+.sidebar .accordion-button:focus {
+  box-shadow: none;
+  
+}
+
+.sidebar .accordion-button:hover {
+  box-shadow: none;
+  background: rgba(191, 191, 191, 0.474);
+}
+
+.sidebar .accordion-button:not(.collapsed){
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+ 
+}
+
+.sidebar .accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+  transform: rotate(-180deg);
+}
+
+
+
+/******/
+.sbLink{
+  padding: 0.5rem 0 0.5rem 0.8rem;
+  color: #ffffff;
+  width: 100%;
+  text-decoration: none;
+}
+
+.sbLink:hover,
+.sbSubLink:hover{
+  background: rgba(201, 201, 201, 0.418);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sbSubLink{
+  padding: 0.5rem 0 0.5rem 1.2rem;
+  color: #ffffff;
+  width: 100%;
+  text-decoration: none;
+}
+
+.loggedInUser {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.userCircle {
+  border: 1px solid black;
+  border-radius: 50px;
+}

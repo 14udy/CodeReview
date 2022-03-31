@@ -1,0 +1,16 @@
+table .thInfo {
+    background: rgb(65, 104, 45);
+    color:  #fff;
+}
+
+
+table .tdCat{
+    background: rgba(168, 192, 165, 0.398);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table .tdName{
+    font-size: 18px;
+    font-weight: 400;
+}
