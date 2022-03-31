@@ -45,7 +45,10 @@ export default function EditEnterprise({
     setYears(getYears);
   }, [length, yearStart]);
 
+  //Add nominals to the current enterprise state
   const updateNominals = (edits) => {
+
+    console.log(edits, "Edits")
     edits.forEach((edit) => {
       enterprise.nominalCategories.forEach((cat) => {
         cat.nominals.forEach((nom) => {

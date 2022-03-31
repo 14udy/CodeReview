@@ -26,8 +26,8 @@ export default function Monthly({ enterprise, year, monthStart, updateNominals }
         nominalData
       )
       .then((res) => {
-        if (res.status === "200") {
-            updateNominals(res.enterprise)
+        if (res.status === 200) {
+            updateNominals(res.data)
         }else{
             console.log("Oops something went wrong", res)
         }
